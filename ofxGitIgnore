@@ -1,6 +1,9 @@
 # src is the official directory
 !src/
 
+# addons.make to indicate which addons are needed
+!addons.make
+
 # ignore bin folders' contents, except data folder therein
 bin/*
 !bin/data/
